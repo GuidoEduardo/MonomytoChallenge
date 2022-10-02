@@ -1,6 +1,6 @@
 # MonomytoChallenge
 
-Aplicação para o desafio da Monomyto para Desenvolvedor BackEnd.
+Aplicação para o desafio da Monomyto.
 
 ### Cachaças Canuto 🍺
 
@@ -32,3 +32,37 @@ A aplicação possui controllers para roteamento da API, afim de acessar informa
 * Realizar o clone do repositório e executar o comando `docker-compose up` na pasta raiz
 * A aplicação está executando ✅
 * Coleção do Postman para testar as rotas: [Download](https://drive.google.com/file/d/1GtEtc6Z9Bux6nz3SHN4sctxVvGD7Xrk7/view?usp=sharing)
+
+## Rotas
+
+### Cliente
+
+Obter Clientes - parâmetros: searchNome, minDate, maxDate<br/>
+<b>GET</b> `/api/Cliente`<br/>
+<br/>
+
+Obter Cliente por ID <br/>
+<b>GET</b> `/api/Cliente/{id}`<br/>
+<br/>
+
+Obter Produtos - parâmetros: searchNome, minTeor, maxTeor<br/>
+<b>GET</b> `/api/Produto`<br/>
+<br/>
+
+Obter Produto por ID<br/>
+<b>GET</b> `/api/Produto/{id}`<br/>
+<br/>
+
+Obter Vendas - parâmetros: pageNumber, maxResults, minDate, maxDate, searchCliente, searchProduto<br/>
+<b>GET</b> `/api/Venda`<br/>
+<br/>
+
+Obter Relatório de Cliente - parâmetros: qtItens, minDate, maxDate<br/>
+<b>GET</b> `/api/Cliente/Report`<br/>
+<br/>
+
+Obter Relatório de Produto - parâmetros: sortValor, sortQuantidade<br/>
+<b>GET</b> `/api/Produto/Report`<br/>
+<br/>
+
+
