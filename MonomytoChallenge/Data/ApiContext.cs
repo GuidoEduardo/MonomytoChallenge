@@ -30,10 +30,5 @@ namespace MonomytoChallenge.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
             => modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder
-                    .UseLoggerFactory(LoggerFactory.Create(builder => builder.AddConsole()))
-                    .EnableSensitiveDataLogging();
     }
 }

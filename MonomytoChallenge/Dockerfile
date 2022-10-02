@@ -8,9 +8,6 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-ENV_ASPNETCORE_URLS=http://+:5000;http://+:80;https://+:5001;https://+:443;
-ENV_ASPNETCORE_ENVIRONMENT=Development
-
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["MonomytoChallenge/MonomytoChallenge.csproj", "MonomytoChallenge/"]

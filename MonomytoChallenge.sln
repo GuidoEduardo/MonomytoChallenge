@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonomytoChallenge", "Monomy
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonomytoChallenge.Tests", "MonomytoChallenge.Tests\MonomytoChallenge.Tests.csproj", "{48FDAEDD-6B0F-4884-A602-463413360333}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{199245E6-11AD-41FE-B128-38DD8CE82717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{48FDAEDD-6B0F-4884-A602-463413360333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48FDAEDD-6B0F-4884-A602-463413360333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48FDAEDD-6B0F-4884-A602-463413360333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199245E6-11AD-41FE-B128-38DD8CE82717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199245E6-11AD-41FE-B128-38DD8CE82717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199245E6-11AD-41FE-B128-38DD8CE82717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199245E6-11AD-41FE-B128-38DD8CE82717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
