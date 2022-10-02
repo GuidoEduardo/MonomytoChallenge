@@ -25,7 +25,7 @@ A aplicação possui controllers para roteamento da API, afim de acessar informa
 * Linux/WSL
 
 ### Execução
-* Fazer instalação do SDK do .NET para geração de certificados: [Download](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-6.0.401-windows-x64-installer)
+* Fazer instalação do SDK do .NET para geração de certificados: [Download](https://download.visualstudio.microsoft.com/download/pr/cebf08ce-ecf1-4439-8a0a-d81b3a4cad12/674ba293b83bdc9b1e00ddfa3ab82f10/dotnet-sdk-6.0.401-win-x64.exe)
 * Abrir terminal e executar o seguinte comando `dotnet dev-certs https -ep %USERPROFILE%\.aspnet\https\aspnetapp.pfx -p password` para geração do certificado
 * Executar o comando `dotnet dev-certs https --trust` para aprovar o certificado
 * Realizar o clone do repositório e executar o comando `docker-compose up` na pasta raiz
