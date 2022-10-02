@@ -2,8 +2,6 @@
 
 Aplicação para o desafio da Monomyto para Desenvolvedor BackEnd.
 
-[DockerHub URL](https://hub.docker.com/r/guidoeduardo/monomytochallenge)
-
 ### Cachaças Canuto 🍺
 
 Aplicação REST, sobre uma empresa fictícia Cachaças Canuto.
