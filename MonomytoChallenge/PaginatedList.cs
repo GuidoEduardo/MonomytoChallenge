@@ -4,18 +4,29 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MonomytoChallenge
 {
-    // Cria uma lista paginada
-    public class PaginatedList<T> : List<T>
+    public class Paginated<T>
     {
-        public int PageIndex { get; private set; }
-        public int TotalPages { get; private set; }
+        public Paginated()
+        {
+            Values = new List<T>();
+        }
 
+        public int PageIndex { get; set; }
+        public int TotalPages { get; set; }
+        public List<T> Values { get; set; }
+    }
+
+    // Cria uma lista paginada
+    public class PaginatedList<T> : Paginated<T>
+    {
         public PaginatedList(List<T> items, int count, int pageIndex, int pageSize)
         {
             PageIndex = pageIndex;
             TotalPages = (int)Math.Ceiling(count / (double)pageSize);
 
-            this.AddRange(items);
+            this.PageIndex = PageIndex;
+            this.TotalPages = TotalPages;
+            this.Values.AddRange(items);
         }
 
         public bool HasPreviousPage => PageIndex > 1;
