@@ -45,6 +45,12 @@ Obter Cliente por ID <br/>
 <b>GET</b> `/api/Cliente/{id}`<br/>
 <br/>
 
+Obter Relatório de Cliente - parâmetros: qtItens, minDate, maxDate<br/>
+<b>GET</b> `/api/Cliente/Report`<br/>
+<br/>
+
+### Produto
+
 Obter Produtos - parâmetros: searchNome, minTeor, maxTeor<br/>
 <b>GET</b> `/api/Produto`<br/>
 <br/>
@@ -53,16 +59,16 @@ Obter Produto por ID<br/>
 <b>GET</b> `/api/Produto/{id}`<br/>
 <br/>
 
+Obter Relatório de Produto - parâmetros: sortValor, sortQuantidade<br/>
+<b>GET</b> `/api/Produto/Report`<br/>
+<br/>
+
+### Venda
+
 Obter Vendas - parâmetros: pageNumber, maxResults, minDate, maxDate, searchCliente, searchProduto<br/>
 <b>GET</b> `/api/Venda`<br/>
 <br/>
 
-Obter Relatório de Cliente - parâmetros: qtItens, minDate, maxDate<br/>
-<b>GET</b> `/api/Cliente/Report`<br/>
-<br/>
 
-Obter Relatório de Produto - parâmetros: sortValor, sortQuantidade<br/>
-<b>GET</b> `/api/Produto/Report`<br/>
-<br/>
 
 
