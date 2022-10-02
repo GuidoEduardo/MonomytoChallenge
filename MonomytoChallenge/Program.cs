@@ -29,6 +29,8 @@ builder.Services.AddControllers();
 var app = builder.Build();
 
 // Configura o HTTP Request
+app.UseHttpsRedirection();
+
 app.UseAuthorization();
 
 app.MapControllers();
