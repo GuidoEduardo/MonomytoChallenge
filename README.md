@@ -25,9 +25,9 @@ A aplicação possui controllers para roteamento da API, afim de acessar informa
 * Linux/WSL
 
 ### Execução
-1 - Realizar clone do repositório.
-2 - Abrir o terminal e executar o comando `docker-compose up` na pasta raiz.
-3 - A aplicação está executando ✅
+* Realizar clone do repositório.
+* Abrir o terminal e executar o comando `docker-compose up` na pasta raiz.
+* A aplicação está executando ✅
 
 ### Postman
 Coleção do Postman para testar as rotas: [Download](https://drive.google.com/file/d/1GtEtc6Z9Bux6nz3SHN4sctxVvGD7Xrk7/view?usp=sharing)
