@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonomytoChallenge", "MonomytoChallenge\MonomytoChallenge.csproj", "{551D35E4-E88D-444D-A611-F46B8FB7CFE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonomytoChallenge.Tests", "MonomytoChallenge.Tests\MonomytoChallenge.Tests.csproj", "{48FDAEDD-6B0F-4884-A602-463413360333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{551D35E4-E88D-444D-A611-F46B8FB7CFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551D35E4-E88D-444D-A611-F46B8FB7CFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551D35E4-E88D-444D-A611-F46B8FB7CFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551D35E4-E88D-444D-A611-F46B8FB7CFE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FDAEDD-6B0F-4884-A602-463413360333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FDAEDD-6B0F-4884-A602-463413360333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FDAEDD-6B0F-4884-A602-463413360333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FDAEDD-6B0F-4884-A602-463413360333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DE7F59A-1EFF-49E3-B557-D7729F244432}
+	EndGlobalSection
+EndGlobal
