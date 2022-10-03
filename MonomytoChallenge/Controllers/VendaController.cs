@@ -89,7 +89,7 @@ namespace MonomytoChallenge.Controllers
                                         PrecoUnitario = i.PrecoUnitario,
                                         Quantidade = i.Quantidade
                                     })
-                            }),
+                            }).OrderBy(v => v.Id),
                             pageNumber.Value,
                             maxResults.Value
                         )
