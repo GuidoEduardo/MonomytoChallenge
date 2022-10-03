@@ -25,12 +25,21 @@ A aplicação possui controllers para roteamento da API, afim de acessar informa
 * .NET SDK
 
 ### Execução
+
+### Através do repositório
 * Realizar a instalação do SDK do .NET para geração de certificados: [Download](https://download.visualstudio.microsoft.com/download/pr/cebf08ce-ecf1-4439-8a0a-d81b3a4cad12/674ba293b83bdc9b1e00ddfa3ab82f10/dotnet-sdk-6.0.401-win-x64.exe)
 * Abrir o terminal e executar o seguinte comando para limpar os certificados SSL de desenvolvimento: `dotnet dev-certs https --clean`
 * Executar o seguinte comando para geração de SSL: `dotnet dev-certs https -ep %USERPROFILE%\.aspnet\https\aspnetapp.pfx -p password`
 * Executar o comando `dotnet dev-certs https --trust` para aprovar o certificado
 * Realizar o clone do repositório e executar o comando `docker-compose up` na pasta raiz
 * A aplicação está executando ✅
+
+### Através da imagem docker
+* Executar o comando `docker pull guidoeduardo/monomytochallenge`
+* Iniciar o docker: `docker run -p 5000:80 guidoeduardo/monomytochallenge`
+* A aplicação está executando sem SSL ✅
+
+## Postman
 * Coleção do Postman para testar as rotas: [Download](https://drive.google.com/file/d/1GtEtc6Z9Bux6nz3SHN4sctxVvGD7Xrk7/view?usp=sharing)
 
 ## Rotas
